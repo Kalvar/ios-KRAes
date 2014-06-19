@@ -1,10 +1,31 @@
-ios-KRAes-Algorithm
-=================
+//
+//  ViewController.m
+//  KRAES
+//
+//  Created by Kalvar on 2014/6/19.
+//  Copyright (c) 2014年 Kalvar. All rights reserved.
+//
 
-This's AES256 encrypt algorithm.
-
-``` objective-c
+#import "ViewController.h"
 #import "KRAes.h"
+
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	[self testSample];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
 
 -(void)testSample
 {
@@ -15,12 +36,5 @@ This's AES256 encrypt algorithm.
     
     NSLog(@"_restoredContent : %@", _restoredContent);
 }
-```
 
-## Version
-
-V1.0
-
-## License
-
-MIT.
+@end

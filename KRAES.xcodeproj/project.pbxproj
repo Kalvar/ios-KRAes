@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E51F6FA1953248300628A00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E51F6F91953248300628A00 /* Foundation.framework */; };
+		8E51F6FC1953248300628A00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E51F6FB1953248300628A00 /* CoreGraphics.framework */; };
+		8E51F6FE1953248300628A00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E51F6FD1953248300628A00 /* UIKit.framework */; };
+		8E51F7041953248300628A00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E51F7021953248300628A00 /* InfoPlist.strings */; };
+		8E51F7061953248300628A00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E51F7051953248300628A00 /* main.m */; };
+		8E51F70A1953248300628A00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E51F7091953248300628A00 /* AppDelegate.m */; };
+		8E51F70D1953248300628A00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E51F70B1953248300628A00 /* Main.storyboard */; };
+		8E51F7101953248300628A00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E51F70F1953248300628A00 /* ViewController.m */; };
+		8E51F7121953248300628A00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E51F7111953248300628A00 /* Images.xcassets */; };
+		8E51F7191953248300628A00 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E51F7181953248300628A00 /* XCTest.framework */; };
+		8E51F71A1953248300628A00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E51F6F91953248300628A00 /* Foundation.framework */; };
+		8E51F71B1953248300628A00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E51F6FD1953248300628A00 /* UIKit.framework */; };
+		8E51F7231953248300628A00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E51F7211953248300628A00 /* InfoPlist.strings */; };
+		8E51F7251953248300628A00 /* KRAESTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E51F7241953248300628A00 /* KRAESTests.m */; };
+		8E51F73719532CE300628A00 /* KRAes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E51F73619532CE300628A00 /* KRAes.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E51F71C1953248300628A00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E51F6EE1953248300628A00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E51F6F51953248300628A00;
+			remoteInfo = KRAES;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E51F6F61953248300628A00 /* KRAES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRAES.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E51F6F91953248300628A00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E51F6FB1953248300628A00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E51F6FD1953248300628A00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E51F7011953248300628A00 /* KRAES-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KRAES-Info.plist"; sourceTree = "<group>"; };
+		8E51F7031953248300628A00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E51F7051953248300628A00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E51F7071953248300628A00 /* KRAES-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KRAES-Prefix.pch"; sourceTree = "<group>"; };
+		8E51F7081953248300628A00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E51F7091953248300628A00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E51F70C1953248300628A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E51F70E1953248300628A00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E51F70F1953248300628A00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E51F7111953248300628A00 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E51F7171953248300628A00 /* KRAESTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRAESTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E51F7181953248300628A00 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8E51F7201953248300628A00 /* KRAESTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KRAESTests-Info.plist"; sourceTree = "<group>"; };
+		8E51F7221953248300628A00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E51F7241953248300628A00 /* KRAESTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRAESTests.m; sourceTree = "<group>"; };
+		8E51F73519532CE300628A00 /* KRAes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRAes.h; sourceTree = "<group>"; };
+		8E51F73619532CE300628A00 /* KRAes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRAes.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E51F6F31953248300628A00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E51F6FC1953248300628A00 /* CoreGraphics.framework in Frameworks */,
+				8E51F6FE1953248300628A00 /* UIKit.framework in Frameworks */,
+				8E51F6FA1953248300628A00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E51F7141953248300628A00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E51F7191953248300628A00 /* XCTest.framework in Frameworks */,
+				8E51F71B1953248300628A00 /* UIKit.framework in Frameworks */,
+				8E51F71A1953248300628A00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E51F6ED1953248300628A00 = {
+			isa = PBXGroup;
+			children = (
+				8E51F72E195324AA00628A00 /* Classes */,
+				8E51F6FF1953248300628A00 /* KRAES */,
+				8E51F7001953248300628A00 /* Supporting Files */,
+				8E51F71E1953248300628A00 /* KRAESTests */,
+				8E51F6F81953248300628A00 /* Frameworks */,
+				8E51F6F71953248300628A00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E51F6F71953248300628A00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E51F6F61953248300628A00 /* KRAES.app */,
+				8E51F7171953248300628A00 /* KRAESTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E51F6F81953248300628A00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E51F6F91953248300628A00 /* Foundation.framework */,
+				8E51F6FB1953248300628A00 /* CoreGraphics.framework */,
+				8E51F6FD1953248300628A00 /* UIKit.framework */,
+				8E51F7181953248300628A00 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E51F6FF1953248300628A00 /* KRAES */ = {
+			isa = PBXGroup;
+			children = (
+				8E51F7081953248300628A00 /* AppDelegate.h */,
+				8E51F7091953248300628A00 /* AppDelegate.m */,
+				8E51F70B1953248300628A00 /* Main.storyboard */,
+				8E51F70E1953248300628A00 /* ViewController.h */,
+				8E51F70F1953248300628A00 /* ViewController.m */,
+				8E51F7111953248300628A00 /* Images.xcassets */,
+			);
+			path = KRAES;
+			sourceTree = "<group>";
+		};
+		8E51F7001953248300628A00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E51F7011953248300628A00 /* KRAES-Info.plist */,
+				8E51F7021953248300628A00 /* InfoPlist.strings */,
+				8E51F7051953248300628A00 /* main.m */,
+				8E51F7071953248300628A00 /* KRAES-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = KRAES;
+			sourceTree = "<group>";
+		};
+		8E51F71E1953248300628A00 /* KRAESTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E51F7241953248300628A00 /* KRAESTests.m */,
+				8E51F71F1953248300628A00 /* Supporting Files */,
+			);
+			path = KRAESTests;
+			sourceTree = "<group>";
+		};
+		8E51F71F1953248300628A00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E51F7201953248300628A00 /* KRAESTests-Info.plist */,
+				8E51F7211953248300628A00 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E51F72E195324AA00628A00 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8E51F72F195324AA00628A00 /* KRAES */,
+			);
+			name = Classes;
+			path = KRAES/Classes;
+			sourceTree = "<group>";
+		};
+		8E51F72F195324AA00628A00 /* KRAES */ = {
+			isa = PBXGroup;
+			children = (
+				8E51F73519532CE300628A00 /* KRAes.h */,
+				8E51F73619532CE300628A00 /* KRAes.m */,
+			);
+			path = KRAES;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E51F6F51953248300628A00 /* KRAES */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E51F7281953248300628A00 /* Build configuration list for PBXNativeTarget "KRAES" */;
+			buildPhases = (
+				8E51F6F21953248300628A00 /* Sources */,
+				8E51F6F31953248300628A00 /* Frameworks */,
+				8E51F6F41953248300628A00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRAES;
+			productName = KRAES;
+			productReference = 8E51F6F61953248300628A00 /* KRAES.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E51F7161953248300628A00 /* KRAESTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E51F72B1953248300628A00 /* Build configuration list for PBXNativeTarget "KRAESTests" */;
+			buildPhases = (
+				8E51F7131953248300628A00 /* Sources */,
+				8E51F7141953248300628A00 /* Frameworks */,
+				8E51F7151953248300628A00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E51F71D1953248300628A00 /* PBXTargetDependency */,
+			);
+			name = KRAESTests;
+			productName = KRAESTests;
+			productReference = 8E51F7171953248300628A00 /* KRAESTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E51F6EE1953248300628A00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Kalvar;
+				TargetAttributes = {
+					8E51F7161953248300628A00 = {
+						TestTargetID = 8E51F6F51953248300628A00;
+					};
+				};
+			};
+			buildConfigurationList = 8E51F6F11953248300628A00 /* Build configuration list for PBXProject "KRAES" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E51F6ED1953248300628A00;
+			productRefGroup = 8E51F6F71953248300628A00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E51F6F51953248300628A00 /* KRAES */,
+				8E51F7161953248300628A00 /* KRAESTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E51F6F41953248300628A00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E51F7121953248300628A00 /* Images.xcassets in Resources */,
+				8E51F7041953248300628A00 /* InfoPlist.strings in Resources */,
+				8E51F70D1953248300628A00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E51F7151953248300628A00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E51F7231953248300628A00 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E51F6F21953248300628A00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E51F73719532CE300628A00 /* KRAes.m in Sources */,
+				8E51F7101953248300628A00 /* ViewController.m in Sources */,
+				8E51F70A1953248300628A00 /* AppDelegate.m in Sources */,
+				8E51F7061953248300628A00 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E51F7131953248300628A00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E51F7251953248300628A00 /* KRAESTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E51F71D1953248300628A00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E51F6F51953248300628A00 /* KRAES */;
+			targetProxy = 8E51F71C1953248300628A00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E51F7021953248300628A00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E51F7031953248300628A00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E51F70B1953248300628A00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E51F70C1953248300628A00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E51F7211953248300628A00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E51F7221953248300628A00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E51F7261953248300628A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E51F7271953248300628A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E51F7291953248300628A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KRAES/KRAES-Prefix.pch";
+				INFOPLIST_FILE = "KRAES/KRAES-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E51F72A1953248300628A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KRAES/KRAES-Prefix.pch";
+				INFOPLIST_FILE = "KRAES/KRAES-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8E51F72C1953248300628A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KRAES.app/KRAES";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KRAES/KRAES-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KRAESTests/KRAESTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8E51F72D1953248300628A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KRAES.app/KRAES";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KRAES/KRAES-Prefix.pch";
+				INFOPLIST_FILE = "KRAESTests/KRAESTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E51F6F11953248300628A00 /* Build configuration list for PBXProject "KRAES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E51F7261953248300628A00 /* Debug */,
+				8E51F7271953248300628A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E51F7281953248300628A00 /* Build configuration list for PBXNativeTarget "KRAES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E51F7291953248300628A00 /* Debug */,
+				8E51F72A1953248300628A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E51F72B1953248300628A00 /* Build configuration list for PBXNativeTarget "KRAESTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E51F72C1953248300628A00 /* Debug */,
+				8E51F72D1953248300628A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E51F6EE1953248300628A00 /* Project object */;
+}
